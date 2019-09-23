@@ -5,10 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Enums\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Entities\" />
     <Folder Include="IRepositoties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectTedu.Infrastructure\ProjectTedu.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
